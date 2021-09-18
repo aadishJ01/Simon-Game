@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simon Game-Rules</title>
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Noto+Serif&family=Satisfy&display=swap" rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="icon" href="images/favicon.ico">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- My CSS File -->
+  <link rel="stylesheet" href="CSS/styles.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="">
+        <i class="fas fa-route"></i>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapseContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="white navbar-toggler-icon"></span>
+      </button>
+
+      <div class="left collapse navbar-collapse" id="collapseContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#objective">Objective</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#rules">Rules</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gameBtn">Play Game</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#bottomSection">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  <div class="paddingBottom">
+    <h1 class="padding">The Simon Game</h1>
+
+    <div class="aboutGame container left">
+      <h3 id="objective" class="padding">Objective of the game:</h3>
+      <p>Correctly repeat a longer sequence of signals.</p>
+      <h3 id="rules" class="padding">Rules of the game:</h3>
+      <p>1. The game consist of four colored buttons, each producing a particular tone when it is pressed.</p>
+      <p>2. In each round, a new button is lightened up in random order, after which the player must reproduce that order from the start by pressing the buttons.</p>
+      <p>3. If the player succeed in doing so, he will be promoted to the next level.</p>
+      <p>4. But, if the player failed to repeat the sequence exactly, the game will be ended.</p>
+    </div>
+
+    <form action="game/game.html">
+      <input id="gameBtn" class="btnMargin btn btn-danger" type="submit" value="Play Game">
+    </form>
+
+  </div>
+
+  <div id="bottomSection">
+
+    <div>Connect me on</div>
+    <div class="logo">
+      <a href="https://www.linkedin.com/in/aadish-jain-04a4b0217/"><i class="ConnectBtn fab fa-linkedin fa-1.5x"></i></a>
+    </div>
+    <div class="logo">
+      <a href="https://github.com/aadishJ01"><i class="ConnectBtn fab fa-github-square fa-1.5x"></i></a>
+    </div>
+    <div class="logo">
+      <a href="https://www.instagram.com/aadish_aj/"><i class="ConnectBtn fab fa-instagram fa-1.5x"></i></a>
+    </div>
+    <div>~ Made with <i class="red fas fa-heart"></i> by Aadish Jain</div>
+
+  </div>
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- Bootstrap Script -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <!-- Font-Awesome -->
+  <script src="https://kit.fontawesome.com/ae68aa95f2.js" crossorigin="anonymous"></script>
+  <!-- My JS Script -->
+  <script src="JS/index.js" charset="utf-8"></script>
+
+</body>
+
+</html>

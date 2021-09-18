@@ -1,0 +1,133 @@
+/* font-family: 'Berkshire Swash', cursive; */
+/* font-family: 'Noto Serif', serif; */
+/* font-family: 'Satisfy', cursive; */
+
+body{
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: 'Noto Serif', serif;
+  position: relative;
+}
+
+#bottomSection{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #FFBCBC;
+  color: #B7657B;
+  font-weight:900;
+  padding: 1% 0 0.5% 0;
+}
+
+.btnMargin{
+  margin: 2% 0 3% 0;
+}
+
+.btnPadding{
+  padding: 1% 2% 1% 2%;
+}
+
+.BtnPressByUser{
+  opacity: 0.4;
+  box-shadow: 0 0 10px 7px white;
+}
+
+#color1{
+  background-color: green;
+}
+
+#color2{
+  background-color: red;
+}
+
+#color3{
+  background-color: blue;
+}
+
+#color4{
+  background-color: yellow;
+}
+
+.colorBtn{
+  border: 0.2rem solid white;
+  border-radius: 10%;
+  height: 5.5rem;
+  width: 25%;
+}
+
+.ConnectBtn{
+  color: #C13584;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Berkshire Swash', cursive;
+}
+
+input[type=text]{
+  background-color: #212529;
+  color: white;
+  width: 30%;
+}
+
+.paddingBottom{
+  padding-bottom: 7rem;
+}
+
+.left{
+  text-align: left;
+}
+
+#level{
+
+}
+
+.logo{
+  display: inline;
+  margin: 0 0.5% 0 0.5%;
+}
+
+.padding{
+  padding: 1.5% 0 1.5% 0;
+}
+
+.nav-link{
+  font-family: 'Satisfy', cursive;
+}
+
+.red{
+  color: red;
+}
+
+.right{
+  text-align: right;
+}
+
+.white{
+  color: white;
+}
+
+@media (min-width:768px) and (max-width:992px) {
+  .colorBtn{
+    width: 35%;
+    height: 4.5rem;
+  }
+}
+
+@media (min-width:576px) and (max-width:768px) {
+  .colorBtn{
+    width: 40%;
+    height: 3.7rem;
+  }
+}
+
+@media (max-width:576px) {
+  .colorBtn{
+    width: 38%;
+    height: 3.5rem;
+  }
+}
+
+.ConnectBtn:hover{
+  color: blue;
+}
