@@ -7,7 +7,12 @@ body{
   background-color: black;
   color: white;
   font-family: 'Noto Serif', serif;
+  height: 100%;
   position: relative;
+}
+
+#body{
+  padding-bottom: 7rem;
 }
 
 #bottomSection{
@@ -64,14 +69,19 @@ h1,h2,h3,h4,h5,h6{
   font-family: 'Berkshire Swash', cursive;
 }
 
+#holder{
+  position: relative;
+  min-height: 100%;
+}
+
+html{
+  height: 100%;
+}
+
 input[type=text]{
   background-color: #212529;
   color: white;
   width: 30%;
-}
-
-.paddingBottom{
-  padding-bottom: 7rem;
 }
 
 .left{

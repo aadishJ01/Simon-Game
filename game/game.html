@@ -19,84 +19,91 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
 
-      <a class="navbar-brand" href="../index.html">
-        <i class="fas fa-arrow-left"></i>
-        <span>Home</span>
-      </a>
+  <div id="holder">
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapseContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="white navbar-toggler-icon"></span>
-      </button>
+    <div id="body">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
 
-      <div class="left collapse navbar-collapse" id="collapseContent">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#bottomSection">Contact Us</a>
-          </li>
-        </ul>
+          <a class="navbar-brand" href="../index.html">
+            <i class="fas fa-arrow-left"></i>
+            <span>Home</span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapseContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="white navbar-toggler-icon"></span>
+          </button>
+
+          <div class="left collapse navbar-collapse" id="collapseContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#bottomSection">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </nav>
+
+      <div class="">
+        <h1 class="padding">Let the game begin!</h1>
+
+        <div class="padding">
+          <form id="formSubmit" action="#level">
+            <label>
+              <h4>Enter your Name: </h4>
+            </label>
+            <br>
+            <input id="inputName" type="text">
+            <br><br>
+            <input id="submitBtn" class="btn btn-danger" type="submit" value="Start Game">
+          </form>
+        </div>
+
       </div>
 
-    </div>
-  </nav>
+      <div class="">
 
-  <div class="">
-    <h1 class="padding">Let the game begin!</h1>
+        <h4 class="padding" id="level">Hey there!</h4>
 
-    <div class="padding">
-      <form id="formSubmit" action="#level">
-        <label>
-          <h4>Enter your Name: </h4>
-        </label>
-        <br>
-        <input id="inputName" type="text">
-        <br><br>
-        <input id="submitBtn" class="btn btn-danger" type="submit" value="Start Game">
-      </form>
-    </div>
-
-  </div>
-
-  <div class="paddingBottom">
-
-    <h4 class="padding" id="level">Hey there!</h4>
-
-    <div class="container padding">
-      <div class="row">
-        <div class="col-6 btnPadding right">
-          <button class="colorBtn" id="color1"></button>
+        <div class="container padding">
+          <div class="row">
+            <div class="col-6 btnPadding right">
+              <button class="colorBtn" id="color1"></button>
+            </div>
+            <div class="col-6 btnPadding left">
+              <button class="colorBtn" id="color2"></button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6 btnPadding right">
+              <button class="colorBtn" id="color3"></button>
+            </div>
+            <div class="col-6 btnPadding left">
+              <button class="colorBtn" id="color4"></button>
+            </div>
+          </div>
         </div>
-        <div class="col-6 btnPadding left">
-          <button class="colorBtn" id="color2"></button>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-6 btnPadding right">
-          <button class="colorBtn" id="color3"></button>
-        </div>
-        <div class="col-6 btnPadding left">
-          <button class="colorBtn" id="color4"></button>
-        </div>
+
       </div>
     </div>
 
-  </div>
+    <div id="bottomSection">
 
-  <div id="bottomSection">
+      <div>Connect me on</div>
+      <div class="logo">
+        <a href="https://www.linkedin.com/in/aadish-jain-04a4b0217/"><i class="ConnectBtn fab fa-linkedin fa-1.5x"></i></a>
+      </div>
+      <div class="logo">
+        <a href="https://github.com/aadishJ01"><i class="ConnectBtn fab fa-github-square fa-1.5x"></i></a>
+      </div>
+      <div class="logo">
+        <a href="https://www.instagram.com/aadish_aj/"><i class="ConnectBtn fab fa-instagram fa-1.5x"></i></a>
+      </div>
+      <div>~ Made with <i class="red fas fa-heart"></i> by Aadish Jain</div>
 
-    <div>Connect me on</div>
-    <div class="logo">
-      <a href="https://www.linkedin.com/in/aadish-jain-04a4b0217/"><i class="ConnectBtn fab fa-linkedin fa-1.5x"></i></a>
     </div>
-    <div class="logo">
-      <a href="https://github.com/aadishJ01"><i class="ConnectBtn fab fa-github-square fa-1.5x"></i></a>
-    </div>
-    <div class="logo">
-      <a href="https://www.instagram.com/aadish_aj/"><i class="ConnectBtn fab fa-instagram fa-1.5x"></i></a>
-    </div>
-    <div>~ Made with <i class="red fas fa-heart"></i> by Aadish Jain</div>
 
   </div>
 
